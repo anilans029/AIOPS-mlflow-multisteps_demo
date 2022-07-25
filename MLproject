@@ -5,3 +5,12 @@ conda_env: conda.yaml
 entry_points:
     main:
         command: "python main.py"
+    
+    stage1:
+        command: "python stage1.py"
+    
+    stage2:
+        command: "python stage2.py"
+    
+    stage3:
+        command: "python stage3.py"
